@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>- Web World Traveler -</title>
+    <!-- CSSを呼び出す -->
+    <link rel="stylesheet" href="style.css">
+    <!-- フォントの取得 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="Top">
+            <h1>- Web World Traveler -</h1>
+            <p>いつでも、世界旅行</p>
+        </div>
+        <Nav class="UserName">
+            <h3>YourName</h3>
+            <input type="text" id="user-name" size="40" maxlength="20"  placeholder="旅で使用する名前を入力してください">
+            <button id="set-name">SAVE</button>
+        </Nav>
+    </header>
+    <main>
+        <div class="map">
+            <img src="worldmap.png" alt="世界地図の画像" width="400" height="300">
+            <div id="country-map"></div>
+        </div>
+        <div class="info">
+            <h3>ナビゲーター</h3>
+            <p id="info"></p>
+        </div>
+        <div id="country"></div>
+        <div id="tweet"></div>
+        <div id="save"></div>
+    </main>
+</body>
+</html>
