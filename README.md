@@ -44,6 +44,10 @@ Web World Travelerは、kenton116が作成したゲームです。
 
 イラストイメージ様のリンクは[こちら](https://illustimage.com)
 
+フォントはGoogle fontを使用しました。フォント名:Yomogi
+
+Google font様のリンクは[こちら](https://fonts.google.com)
+
 ロゴはPhotoshopで作成しました。
 
 ソースコード・ロゴなどの著作権はkenton116が保有します。
