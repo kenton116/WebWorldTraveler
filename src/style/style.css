@@ -1,0 +1,58 @@
+body {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Yomogi', cursive;
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.1);
+    color: #7d7d7d;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    line-height: 1.4;
+    
+}
+
+.logo {
+    display: flex;
+    border-bottom: 3px solid gray;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+.logo a {
+    margin-left: 30px;
+    color: gray;
+}
+
+.Top h1{
+    transform: rotateZ(5deg);
+}
+
+
+.map img {
+    border-radius: 10%;
+}
+
+.info {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: left;
+    border-bottom: gray 3px solid;
+}
+
+.info-letter {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.Top img {
+    border-radius: 50%;
+    border-width: 7px;
+    border-style: inset;
+    border-color: lemonchiffon skyblue;
+}
