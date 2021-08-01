@@ -1,4 +1,4 @@
-# [WebWorldTraveler](https://kenton116.github.io/WebWorldTravler/src/index.html)
+# [WebWorldTraveler](https://kenton116.github.io/WebWorldTravler/index.html)
 ウェブで世界旅行
 ## 目次
 - [概要](#概要)
