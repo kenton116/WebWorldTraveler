@@ -36,7 +36,7 @@ Web World Travelerは、kenton116が作成したゲームです。
 - Firefox
 - Microsoft edge
 
-### 非推奨
+#### 非推奨
 - Internet Explorer
 
 ## ライセンス
