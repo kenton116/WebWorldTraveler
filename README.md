@@ -14,7 +14,7 @@ Web World Travelerは、kenton116が作成したゲームです。
 セーブ・ロード機能を実装しました。
 
 ## 使い方
-[こちら](how-to-use.md)で確認できます。
+[こちら](https://kenton116.github.io/WebWorldTraveler/how-to-play.md)で確認できます。
 
 ## 推奨ブラウザ
 可能な限り最新版を使用してください。
