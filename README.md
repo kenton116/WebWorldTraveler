@@ -1,3 +1,5 @@
+※このページは[この](https://github.com/kenton116/WebWorldTraveler/wiki)Wikiと同じ内容です。
+
 # [WebWorldTraveler](https://kenton116.github.io/WebWorldTraveler/wwt.html)
 ウェブで世界旅行
 ## 目次
