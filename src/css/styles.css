@@ -1,0 +1,139 @@
+/* 全てに適用するCSS */
+/* Webページ全体 */
+body {
+    -webkit-text-size-adjust: 100%;
+    width: device-width; 
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Yomogi', cursive;
+    background-color: rgba(0, 0, 255, 0.1);
+    color: #7d7d7d;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ヘッダー部分 */
+header {
+    line-height: 1.4;
+}
+
+.logo {
+    display: flex;
+    border-bottom: 3px solid gray;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+.logo a {
+    margin-left: 30px;
+    color: gray;
+}
+
+.Top h1 {
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotateZ(5deg);
+    background: linear-gradient(transparent 70%, #04c8ef6c 50% );
+}
+
+.Top img {
+    border-radius: 50%;
+    border-width: 7px;
+    border-style: inset;
+    border-color: lemonchiffon skyblue;
+}
+
+/* メイン部分 */
+.map img {
+    border-radius: 10%;
+}
+
+/* フッター部分 */
+footer {
+    width: device-width;
+    background-color: #c5c5c5;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.copyright {
+    color: black;
+}
+
+@media screen and (min-width:320px) and (max-width:479px) {
+    /* スマートフォンのCSS */
+    /* Webページ全体 */
+    body {
+        font-size: 20px;
+    }
+    
+    /* ヘッダー部分 */
+    .Top h1{
+        width: 300px;
+    }
+
+    .logo a {
+        margin-left: 0px;
+    }
+    /* メイン部分 */
+    .map img {
+        width: 50%;
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:767px) {
+    body {
+        font-size: 130%;
+    }
+
+    .Top h1 {
+        width: 500px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    body {
+        font-size: 160%;
+    }
+
+    .Top h1 {
+        width: 750px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .logo a {
+        margin-left: 30px;
+    }
+
+    .navigation {
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .UserName {
+        width: 500px;
+        height: 80px;
+        display: flex;
+        margin: auto;
+    }
+
+    .UserName h3, input, button {
+        margin-right: 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .UserName input {
+        margin-top: 24px;
+    }
+}
